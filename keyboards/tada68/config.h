@@ -56,6 +56,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BACKLIGHT_BREATHING
 #define BACKLIGHT_LEVELS 4
 
+/* custom mouse emu */
+#define MOUSEKEY_TIME_TO_MAX 15
+#define MOUSEKEY_WHEEL_INTERVAL 250
+#define MOUSEKEY_WHEEL_DELAY 175
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
